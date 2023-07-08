@@ -1,12 +1,10 @@
-import React, { useState } from 'react'
+import { SingIn } from "./pages/singIn";
 
 function App() {
 
   return (
     <>
-      <div>
-        lolamd
-      </div>
+      <SingIn/>
     </>
   )
 }
