@@ -1,4 +1,5 @@
 * {
+  font-size: 14px;
   margin: 0;
   padding: 0;
   font-family: 'Inter', sans-serif;
@@ -12,21 +13,51 @@
   height: 100vh;
 }
 
-.content {
-  width: 70vw;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-}
-
 .input {
-  padding: 10px, 12px, 10px, 12px;
-}
-
-.newAccount {
-
+  padding-left: 12px;
+  margin-top: 25px;
+  font-weight: 400;
+  width: 277px;
+  height: 43px;
+  border-radius: 4px;
+  font-size: 19px;
+  background-color: #FFFFFF;
 }
 
 .button {
+  font-weight: 400;
+  padding: 10px 12px 10px 12px;
+  width: 289px;
+  height: 43px;
+  border-radius: 4px;
+  font-size: 19px;
+  background-color: #F6F6F6;
+}
 
+.SingIn {
+  padding-top: 80px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  font-size: 35px;
+  line-height: 42.36px;
+}
+
+.or {
+  align-items: center;
+  padding-top: 15px;
+  width: 289px;
+  height: 42px;
+  font-weight: 300;
+  display: flex;
+  justify-content: center;
+}
+
+.newAccount {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  font-weight: 300;
+  color: #0094FF;
+  display: flex;
+  justify-content: start;
 }
