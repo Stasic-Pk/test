@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 export function SingIn() {
   return (
@@ -8,7 +8,7 @@ export function SingIn() {
           <h1 className="SingIn"> Sing-In </h1> <br/>
           <input className="input" type="text" placeholder="Email" /> <br/>
           <input className="input" type="text" placeholder="Password" /> <br/>
-          <small className="newAccount"> Create new account </small> <br/>
+          <small className="newAccount"> <a href="/singUp"> Create new account </a> </small> <br/>
           <button className="button"> Sign-in </button> <br/>
           <small className="or"> or </small> <br/>
           <button className="button"> Continue with Google </button>

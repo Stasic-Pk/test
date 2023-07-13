@@ -1,10 +1,16 @@
+import { Route, Routes } from 'react-router-dom';
+
 import { SingIn } from "./pages/singIn";
+import { SingUp } from "./pages/singUp";
 
 function App() {
 
   return (
     <>
-      <SingIn/>
+      <Routes>
+        <Route path="/" element={ <SingIn/> }/>
+        <Route path="/singUp" element={ <SingUp/> }/>
+      </Routes>
     </>
   )
 }
