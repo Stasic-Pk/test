@@ -11,7 +11,6 @@ function App() {
         <Route path="/" element={ <SingIn/> }/>
         <Route path="/singUp" element={ <SingUp/> }/>
       </Routes>
-      
     </>
   )
 }
