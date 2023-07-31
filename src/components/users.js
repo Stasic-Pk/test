@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { axios } from "../api/axios";
-import { useRefreshToken } from "../hooks/useRefreshToken";
 
 const Users = () => {
   const [users, setUsers] = useState()
