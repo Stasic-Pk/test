@@ -1,5 +1,3 @@
-import React from "react"
-
 import LoginButton from "../components/loginButton";
 
 export function SingIn() {
