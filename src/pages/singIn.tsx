@@ -1,5 +1,3 @@
-import LoginButton from "../components/loginButton";
-
 export function SingIn() {
   return (
     <>
@@ -9,7 +7,7 @@ export function SingIn() {
           <input className="input" type="text" placeholder="Email" /> <br/>
           <input className="input" type="text" placeholder="Password" /> <br/>
           <small className="newAccount"> <a href="/singUp"> Create new account </a> </small> <br/>
-          <LoginButton/> <br/>
+          <button className="button"> Sign-In </button> <br/>
           <small className="or"> or </small> <br/>
           <button className="button"> Continue with Google </button>
         </div>
