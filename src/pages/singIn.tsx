@@ -1,3 +1,5 @@
+import { Registration } from "../components/registration";
+
 export function SingIn() {
   return (
     <>
